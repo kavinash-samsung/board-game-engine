@@ -1,4 +1,4 @@
-package gamestate;
+package main.java.gamestate;
 
 public class Player {
     String symbol;

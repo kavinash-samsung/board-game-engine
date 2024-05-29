@@ -1,4 +1,4 @@
-package gamestate;
+package main.java.gamestate;
 
 public class Move {
     Cell cell;
@@ -9,5 +9,8 @@ public class Move {
     }
     public Cell getCell(){
         return cell;
+    }
+    public Player getPlayer(){
+        return player;
     }
 }
